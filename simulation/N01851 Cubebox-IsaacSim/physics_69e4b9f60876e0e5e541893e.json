@@ -1,0 +1,334 @@
+{
+  "parts": [
+    {
+      "canonical_name": "M_CubeBox_A01_Body",
+      "part_name": "M_CubeBox_A01_Body",
+      "source_part_name": "M_CubeBox_A01_Body",
+      "source_object_name": "M_CubeBox_A01_Body",
+      "part_index": 0,
+      "part_id": "part_02",
+      "material_name": "corrugated_cardboard",
+      "material": "corrugated_cardboard",
+      "mass": 0.28,
+      "density": 150.0,
+      "inertia": [
+        0.0045059534843872,
+        0.004542820616699348,
+        0.004592236295775144
+      ],
+      "inertia_axes": [
+        0.7212483399994161,
+        -0.6923822168887136,
+        -0.0024032237808313543,
+        -0.020047999895663658
+      ],
+      "center_of_mass": [
+        3.166114510525747e-05,
+        -0.0001135049813606559,
+        0.15677096794540651
+      ],
+      "part_origin_world": [
+        3.166114510525747e-05,
+        -0.0001135049813606559,
+        0.15677096794540651
+      ],
+      "volume": 0.03046046422886577,
+      "bounds": {
+        "min": [
+          -0.158121,
+          0.000401,
+          -0.155088
+        ],
+        "max": [
+          0.158121,
+          0.31343,
+          0.154942
+        ],
+        "center": [
+          0.0,
+          0.156915,
+          -7.3e-05
+        ]
+      },
+      "description": "Main corrugated cardboard structure of the box.",
+      "reasoning": "This is the primary structural body of the box. Corrugated cardboard is lightweight and mostly hollow, so it has a low overall density and mass.",
+      "static_friction": 0.5,
+      "dynamic_friction": 0.45,
+      "restitution": 0.1,
+      "friction_combine_mode": "average",
+      "restitution_combine_mode": "average",
+      "physics_type": "rigid",
+      "is_structural_root": true,
+      "target_metallic": 0.0,
+      "target_roughness": 0.8,
+      "glass_ior": null,
+      "glass_frosting": null,
+      "glass_thin_walled": null,
+      "glass_color": null,
+      "color_name": "Red",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "M_CubeBox_A01_Details",
+      "part_name": "M_CubeBox_A01_Details",
+      "source_part_name": "M_CubeBox_A01_Details",
+      "source_object_name": "M_CubeBox_A01_Details",
+      "part_index": 1,
+      "part_id": "part_03",
+      "material_name": "paper",
+      "material": "paper",
+      "mass": 0.01,
+      "density": 800.0,
+      "inertia": [
+        0.00016052802743137394,
+        0.00016160532972931153,
+        0.00016371952959839657
+      ],
+      "inertia_axes": [
+        0.7235385919980825,
+        -0.6892792454464579,
+        -0.015818837492610153,
+        -0.03370151430687374
+      ],
+      "center_of_mass": [
+        -0.00023939551329548453,
+        -0.00030321521457212734,
+        0.15673148847726057
+      ],
+      "part_origin_world": [
+        -0.00023939551329548453,
+        -0.00030321521457212734,
+        0.15673148847726057
+      ],
+      "volume": 0.030299069651928717,
+      "bounds": {
+        "min": [
+          -0.158072,
+          0.00045,
+          -0.153863
+        ],
+        "max": [
+          0.15722,
+          0.31323,
+          0.15476
+        ],
+        "center": [
+          -0.000426,
+          0.15684,
+          0.000449
+        ]
+      },
+      "description": "Printed surface details and graphical layers on the cardboard box.",
+      "reasoning": "These are thin surface layers or decals permanently affixed to the box body.",
+      "static_friction": 0.4,
+      "dynamic_friction": 0.35,
+      "restitution": 0.05,
+      "friction_combine_mode": "average",
+      "restitution_combine_mode": "average",
+      "physics_type": "rigid",
+      "is_structural_root": false,
+      "target_metallic": 0.0,
+      "target_roughness": 0.9,
+      "glass_ior": null,
+      "glass_frosting": null,
+      "glass_thin_walled": null,
+      "glass_color": null,
+      "color_name": "Blue",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "SM_CubeBox_A05_Decal_01",
+      "part_name": "SM_CubeBox_A05_Decal_01",
+      "source_part_name": "SM_CubeBox_A05_Decal_01",
+      "source_object_name": "SM_CubeBox_A05_Decal_01",
+      "part_index": 2,
+      "part_id": "part_00",
+      "material_name": "paper",
+      "material": "paper",
+      "mass": 0.005,
+      "density": 800.0,
+      "inertia": [
+        1.8893277601766429e-07,
+        2.2086486414125894e-06,
+        2.3975612929659093e-06
+      ],
+      "inertia_axes": [
+        0.5063990091990773,
+        0.49252174891077405,
+        0.505322970826091,
+        0.49561180926967324
+      ],
+      "center_of_mass": [
+        -0.157735963341302,
+        -0.10238496997175114,
+        0.022376968129079335
+      ],
+      "part_origin_world": [
+        -0.157735963341302,
+        -0.10238496997175114,
+        0.022376968129079335
+      ],
+      "volume": 2.0704772919844795e-07,
+      "bounds": {
+        "min": [
+          -0.157931,
+          0.008976,
+          0.066429
+        ],
+        "max": [
+          -0.157622,
+          0.036151,
+          0.149355
+        ],
+        "center": [
+          -0.157776,
+          0.022564,
+          0.107892
+        ]
+      },
+      "description": "Small paper label or decal attached to the side of the box.",
+      "reasoning": "A small decorative or informational decal fixed permanently to the side of the cardboard box.",
+      "static_friction": 0.4,
+      "dynamic_friction": 0.35,
+      "restitution": 0.05,
+      "friction_combine_mode": "average",
+      "restitution_combine_mode": "average",
+      "physics_type": "rigid",
+      "is_structural_root": false,
+      "target_metallic": 0.0,
+      "target_roughness": 0.9,
+      "glass_ior": null,
+      "glass_frosting": null,
+      "glass_thin_walled": null,
+      "glass_color": null,
+      "color_name": "Green",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "SM_CubeBox_A05_Scotch_01",
+      "part_name": "SM_CubeBox_A05_Scotch_01",
+      "source_part_name": "SM_CubeBox_A05_Scotch_01",
+      "source_object_name": "SM_CubeBox_A05_Scotch_01",
+      "part_index": 3,
+      "part_id": "part_01",
+      "material_name": "plastic",
+      "material": "plastic",
+      "mass": 0.015,
+      "density": 950.0,
+      "inertia": [
+        0.00011778792111205054,
+        0.0002695625747053812,
+        0.0003866582692168753
+      ],
+      "inertia_axes": [
+        0.7071954276475273,
+        0.00860080081209927,
+        0.7069159137215387,
+        0.008399063463491419
+      ],
+      "center_of_mass": [
+        -0.002007161862461773,
+        -0.0062678698260076205,
+        0.23692858177076526
+      ],
+      "part_origin_world": [
+        -0.002007161862461773,
+        -0.0062678698260076205,
+        0.23692858177076526
+      ],
+      "volume": 5.03783401074166e-06,
+      "bounds": {
+        "min": [
+          -0.012789,
+          0.0,
+          -0.154701
+        ],
+        "max": [
+          0.00869,
+          0.314759,
+          0.155088
+        ],
+        "center": [
+          -0.00205,
+          0.15738,
+          0.000193
+        ]
+      },
+      "description": "Plastic packing tape sealing the top flaps of the box.",
+      "reasoning": "Strip of plastic tape sealing the box. It is firmly stuck to the box body.",
+      "static_friction": 0.6,
+      "dynamic_friction": 0.5,
+      "restitution": 0.1,
+      "friction_combine_mode": "average",
+      "restitution_combine_mode": "average",
+      "physics_type": "rigid",
+      "is_structural_root": false,
+      "target_metallic": 0.0,
+      "target_roughness": 0.4,
+      "glass_ior": null,
+      "glass_frosting": null,
+      "glass_thin_walled": null,
+      "glass_color": null,
+      "color_name": "Yellow",
+      "confidence": "high"
+    }
+  ],
+  "joint_relations": [
+    {
+      "child": "M_CubeBox_A01_Details",
+      "parent": "M_CubeBox_A01_Body",
+      "joint_type": "fixed",
+      "name": "joint_m_cubebox_a01_body__m_cubebox_a01_details",
+      "damping": 0.0,
+      "effort": 0.0,
+      "friction": 0.0,
+      "stiffness": 0.0,
+      "velocity": 0.0,
+      "origin": [],
+      "joint_rotation_local": [],
+      "axis": [],
+      "motion_limits": null,
+      "revolute_mode": null
+    },
+    {
+      "child": "SM_CubeBox_A05_Decal_01",
+      "parent": "M_CubeBox_A01_Details",
+      "joint_type": "fixed",
+      "name": "joint_m_cubebox_a01_details__sm_cubebox_a05_decal_01",
+      "damping": 0.0,
+      "effort": 0.0,
+      "friction": 0.0,
+      "stiffness": 0.0,
+      "velocity": 0.0,
+      "origin": [],
+      "joint_rotation_local": [],
+      "axis": [],
+      "motion_limits": null,
+      "revolute_mode": null
+    },
+    {
+      "child": "SM_CubeBox_A05_Scotch_01",
+      "parent": "M_CubeBox_A01_Body",
+      "joint_type": "fixed",
+      "name": "joint_m_cubebox_a01_body__sm_cubebox_a05_scotch_01",
+      "damping": 0.0,
+      "effort": 0.0,
+      "friction": 0.0,
+      "stiffness": 0.0,
+      "velocity": 0.0,
+      "origin": [],
+      "joint_rotation_local": [],
+      "axis": [],
+      "motion_limits": null,
+      "revolute_mode": null
+    }
+  ],
+  "base_link": "M_CubeBox_A01_Body",
+  "object_description": "A corrugated cardboard shipping box sealed with packing tape and featuring small labels. Simulated as a single rigid body.",
+  "total_mass": 0.31,
+  "center_of_mass": null,
+  "inertia": null,
+  "overall_assessment": "Simple rigid body simulation with all decals and tapes permanently fixed to the main cardboard box frame.",
+  "num_parts": 4,
+  "object_type": "rigid_bodies"
+}

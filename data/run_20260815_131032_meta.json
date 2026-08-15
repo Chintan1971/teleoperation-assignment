@@ -1,0 +1,12 @@
+{
+  "run_name": "run_20260815_131032",
+  "joint_names": [
+    "shoulder_pan_joint",
+    "shoulder_lift_joint",
+    "elbow_joint",
+    "wrist_1_joint",
+    "wrist_2_joint",
+    "wrist_3_joint"
+  ],
+  "created": "2026-08-15 13:10:32"
+}

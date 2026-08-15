@@ -1,0 +1,81 @@
+{
+  "parts": [
+    {
+      "canonical_name": "part_00",
+      "part_name": "product image",
+      "source_part_name": "product image",
+      "source_object_name": "product image",
+      "part_index": 0,
+      "part_id": "part_00",
+      "material_name": "wood",
+      "material": "wood",
+      "mass": 4.5,
+      "density": 950.0,
+      "inertia": [
+        0.07882829801676183,
+        0.11042110654876218,
+        0.13577972022885526
+      ],
+      "inertia_axes": [
+        0.9999999999707525,
+        6.522622264439702e-07,
+        3.0622790156975555e-06,
+        -6.977972313310838e-06
+      ],
+      "center_of_mass": [
+        -1.501606598960515e-06,
+        9.992710593754142e-08,
+        0.0889615292764255
+      ],
+      "part_origin_world": [
+        -1.501606598960515e-06,
+        9.992710593754142e-08,
+        0.0889615292764255
+      ],
+      "volume": 0.0018599934811674877,
+      "bounds": {
+        "min": [
+          -0.20006999373435974,
+          -0.1503250002861023,
+          0.0
+        ],
+        "max": [
+          0.20006999373435974,
+          0.1503250002861023,
+          0.23499499261379242
+        ],
+        "center": [
+          3.6497805442631467e-09,
+          -1.5170066448812342e-08,
+          0.09903257698358621
+        ]
+      },
+      "description": "A dark grey, open-top rectangular container made of molded plastic. It features solid walls, reinforced ribbed corners and edges, and molded handle grips on the shorter sides.",
+      "reasoning": "The asset is a standard industrial/shipping tote, visibly made of thick, molded rigid plastic such as High-Density Polyethylene (HDPE) or Polypropylene (PP). The density of these materials is typically around 900-1000 kg/m^3. Assuming standard dimensions of approximately 600x400x300mm with ~5mm wall thickness, the volume of plastic material yields a mass of roughly 4.5 kg. Friction coefficients are estimated for hard plastic interacting with typical warehouse environments (concrete, wood, or other plastic), resulting in moderate static (0.45) and dynamic (0.4) values. Restitution is kept relatively low (0.3) as industrial plastic totes exhibit low elasticity. For collisions, 'convex_decomposition' is absolutely crucial; a simple convex hull would cover the top opening, preventing other rigid bodies from being placed inside the container. Standard offsets (contact offset of 0.02m, rest offset of 0.0m) are applied to ensure stable stacking and interaction without excessive penetration or floating.",
+      "static_friction": 0.45,
+      "dynamic_friction": 0.4,
+      "restitution": 0.3,
+      "friction_combine_mode": "average",
+      "restitution_combine_mode": "average",
+      "physics_type": "rigid",
+      "is_structural_root": true,
+      "target_metallic": null,
+      "target_roughness": null,
+      "glass_ior": null,
+      "glass_frosting": null,
+      "glass_thin_walled": null,
+      "glass_color": null,
+      "color_name": "",
+      "confidence": ""
+    }
+  ],
+  "joint_relations": [],
+  "base_link": "product image",
+  "object_description": "A dark grey, open-top rectangular container made of molded plastic. It features solid walls, reinforced ribbed corners and edges, and molded handle grips on the shorter sides.",
+  "total_mass": 4.5,
+  "center_of_mass": null,
+  "inertia": null,
+  "overall_assessment": "",
+  "num_parts": 1,
+  "object_type": "rigid_bodies"
+}
